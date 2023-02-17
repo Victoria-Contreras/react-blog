@@ -1,7 +1,7 @@
 
 import { React, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { setBlogs, addBlog, deleteBlogById } from '../features/blog/blogSlice';
+import { setBlogs, addBlog, deleteBlogById } from '../../features/blog/blogSlice';
 import Post from './Post'
 
 const BlogPosts = () => {

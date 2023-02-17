@@ -1,6 +1,5 @@
-import './App.css';
-import BlogForm from './components/BlogForm';
-import BlogPosts from './components/BlogPosts';
+import BlogForm from './components/blog/BlogForm';
+import BlogPosts from './components/blog/BlogPosts';
 import Navbar from './components/Navbar';
 import {
   BrowserRouter as Router,
